@@ -1,0 +1,18 @@
+// slave_config.txt
+// Information for the slave program:
+
+// The path for the directory to monitor and load shared objects in run-time
+dir_path = "/home/hen/git/projects/silver_lining/monitor";
+
+// The number of threads to use in the slave program
+threads_num = 10;
+
+// The size of memory to use in each slave
+// TODO - this value loaded into int variable and should be max - 2,147,483,647
+slave_mem_size = 4194304;  // 1024 * 1024 * 4
+
+// Port number for this slave
+port_num = 1111;
+
+// Server address - The IP address of the master computer
+server_add = "127.0.0.1";

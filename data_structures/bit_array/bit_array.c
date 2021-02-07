@@ -2,7 +2,6 @@
 * File Name:bit_array_test.c
 * Description: Defenition of functions for bit_array.h
 * Developer: Guy Chen
-* Reviewer: ori Komemi
 * Date: 02.06.2020
 */
 
